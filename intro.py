@@ -43,9 +43,8 @@ print('Hi, my name is {} {}.'.format('Irha', 'Ali'))
 print('Hi, my name is {1}, {0}.'.format('Irha', 'Ali'))
 print('Hi, my name is {new_first_name} {new_last_name}.'.format(new_first_name = 'Pablo', new_last_name = 'Escobar'))
 
-# Subsdtring
+# Subsdtring [start:stop:stepover]
 selfish = '01234567'
-# [start:stop:stepover]
 print(selfish[0:8])
 print(selfish[0:])
 print(selfish[:8])
@@ -53,6 +52,8 @@ print(selfish[0:8:2])
 print(selfish[-1])
 # Reverse the string
 print(selfish[::-1])
+
+# String Are Immutable (can't reassign part of a list)
 
 # list
 # tuple
