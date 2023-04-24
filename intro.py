@@ -57,11 +57,13 @@ print(selfish[-1])
 # Reverse the string
 print(selfish[::-1])
 
-# *
+# * in strings
 print('*' * 10)
 
-# list
-
+# Data Structures (list, tuple, set): A way to organize data
+# list (like array)
+list = [1, 2, 3, 'a', True]
+print(list)
 
 # tuple
 
