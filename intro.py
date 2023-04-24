@@ -16,7 +16,11 @@ print(type(9.9+1.1))
 
 # complex (ie, complex numbers)
 # bool
+True
+False
+
 # str
+# Note: String Are Immutable (can't reassign part of a list)
 'Hi'
 "Hello"
 # Multiline string
@@ -52,11 +56,15 @@ print(selfish[0:8:2])
 print(selfish[-1])
 # Reverse the string
 print(selfish[::-1])
-# String Are Immutable (can't reassign part of a list)
 
 # list
+
+
 # tuple
+
+
 # set
+
 # dict (variables) (Note: must be in snake_case.
 # _ at the beginning indicates private variables)
 # Don't use keywords in python as a variable name
@@ -88,6 +96,6 @@ print(some_value)
 
 # Built-in methods (functions only used by a certain data type)
 # Eg. Length of a string
-print(len('1234567'))
+print('Lenght of a string', len('1234567'))
 
 # Best Practices
