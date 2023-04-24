@@ -62,8 +62,19 @@ print('*' * 10)
 
 # Data Structures (list, tuple, set): A way to organize data
 # list (like array)
-list = [1, 2, 3, 'a', True]
+# List has a lot of the same methods strings have
+list = [1, 2.5, 3, 'a', True]
 print(list)
+# To copy the list so that you can modify it but not the original
+list2 = list[:]
+# instead of
+list2 = list
+# List methods (put . at the end of the list variable)
+basket = [1,2,3,4,5]
+# Adding
+basket.extend([100])
+# Removing
+basket.pop()
 
 # tuple
 
