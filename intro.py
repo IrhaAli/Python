@@ -52,7 +52,6 @@ print(selfish[0:8:2])
 print(selfish[-1])
 # Reverse the string
 print(selfish[::-1])
-
 # String Are Immutable (can't reassign part of a list)
 
 # list
@@ -86,5 +85,9 @@ print(int('0b101', 2))
 some_value = 5
 some_value += 2 # instead of some_value = some_value + 2
 print(some_value)
+
+# Built-in methods (functions only used by a certain data type)
+# Eg. Length of a string
+print(len('1234567'))
 
 # Best Practices
