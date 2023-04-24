@@ -57,6 +57,9 @@ print(selfish[-1])
 # Reverse the string
 print(selfish[::-1])
 
+# *
+print('*' * 10)
+
 # list
 
 
