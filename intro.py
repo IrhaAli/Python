@@ -70,11 +70,19 @@ list2 = list[:]
 # instead of
 list2 = list
 # List methods (put . at the end of the list variable)
-basket = [1,2,3,4,5]
+basket = [1,2,3,4,5,'b']
 # Adding
 basket.extend([100])
 # Removing
 basket.pop()
+# Get intex
+basket.index('b')
+'b' in basket # returns True or False
+basket.count('b')
+basket.sort() # sorts the list (modies original list)
+sorted(basket) # sorts the list (creates new list)
+basket.reverse() # reverse the list (modies original list)
+
 
 # tuple
 
