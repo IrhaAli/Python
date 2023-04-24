@@ -7,3 +7,4 @@
 - Python is good for developer productivity (it's good for machine learning).
 
 ![language process](./images/language-process.png)
+![learning a language](./images/learning-language.png)
