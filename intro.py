@@ -85,8 +85,12 @@ basket.reverse() # reverse the list (modies original list)
 a,b,c, *other, d = [1,2,3,4,5,6,7,8]
 print(other)
 
-# tuple
-
+# tuple (basically immutable list)
+# They're faster than list
+my_tuple = (1,2,3,4,5)
+print(my_tuple)
+print(my_tuple[1])
+print(5 in my_tuple)
 
 # set
 
