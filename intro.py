@@ -29,6 +29,44 @@ if is_Friend and is_User:
 
 # Logical Operators (and, or, >, <, ==, !=)
 
+# is VS
+print(True == 1)  # Truthy Falsey Result: True
+print('' == 1)  # Truthy Falsey Result: False
+print([] == 1)  # Truthy Falsey Result: False
+print(10 == 10.0)  # Result: True
+print([1, 2, 3] == [1, 2, 3])  # Result: True
+
+print(True is True)  # Truthy Falsey Result: True
+print(1 is 1)  # Result: True
+print([] is [])  # Result: False
+
+# For loops (do it for list, dictionary, strings, tuples, sets, anything iterable)
+for item in 'Zero to Mastery':
+    print(item)
+
+user = {
+    'name': 'Golem',
+    'age': 5006,
+    'can_swim': False
+}
+
+for key, value in user.items():
+    print(key, value)
+
+for item in user.values():
+    print(item)
+
+for item in user.keys():
+    print(item)
+
+# Range
+for number in range(0, 10, 2): # 0 to 10 skip by 2
+    print(number)
+
+# Enumerate
+for i, char in enumerate('Hello'):
+    print(i, char) # index i of character as index i
+
 
 
 ############################## Fundamental Data Types ##############################
