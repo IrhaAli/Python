@@ -20,6 +20,16 @@ else:
 # Ternary Operators
 # condition_if_true if condition else condition_if_false
 
+# Short Circuiting (when or is used in an if statement check the easier condition)
+is_Friend = True
+is_User = True
+
+if is_Friend and is_User:
+    print('BFF')
+
+# Logical Operators (and, or, >, <, ==, !=)
+
+
 
 ############################## Fundamental Data Types ##############################
 # int (whole numbers)
