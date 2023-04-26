@@ -3,6 +3,7 @@ print("Welcome to my computer quiz!")
 
 # Initial settings
 score = 0
+total_questions = 0
 playing = input("Do you want to play (y/n)? ")
 
 if playing != "y":
@@ -12,6 +13,7 @@ print("Okay, let's play :)")
 
 # Question 1
 answer = input("What does CPU stand for? ")
+total_questions += 1
 
 if answer.lower() == "central processing unit":
     print("Correct!")
@@ -19,10 +21,11 @@ if answer.lower() == "central processing unit":
 else:
     print("Incorrect")
 
-print("Score: " + str(score))
+print("Score (%): " + str((score / total_questions) * 100))
 
 # Question 2
 answer = input("What does GPU stand for? ")
+total_questions += 1
 
 if answer.lower() == "graphic processing unit":
     print("Correct!")
@@ -30,10 +33,11 @@ if answer.lower() == "graphic processing unit":
 else:
     print("Incorrect")
 
-print("Score: " + str(score))
+print("Score (%): " + str((score / total_questions) * 100))
 
 # Question 3
 answer = input("What does RAM stand for? ")
+total_questions += 1
 
 if answer.lower() == "random access memory":
     print("Correct!")
@@ -41,4 +45,4 @@ if answer.lower() == "random access memory":
 else:
     print("Incorrect")
 
-print("Score: " + str(score))
+print("Score (%): " + str((score / total_questions) * 100))
