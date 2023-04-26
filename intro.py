@@ -82,14 +82,25 @@ basket.count('b')
 basket.sort() # sorts the list (modies original list)
 sorted(basket) # sorts the list (creates new list)
 basket.reverse() # reverse the list (modies original list)
-
+a,b,c, *other, d = [1,2,3,4,5,6,7,8]
+print(other)
 
 # tuple
 
 
 # set
 
-# dict (variables) (Note: must be in snake_case.
+
+# dict (like object in Javascript)
+# The dictionary key needs to be a data type that is immutable
+# Key has to be unique
+dictionary = {
+    'a': 1,
+    'b': 2
+}
+
+
+# Variables (Note: must be in snake_case.
 # _ at the beginning indicates private variables)
 # Don't use keywords in python as a variable name
 # all caps variable indicate the variable is a constant
@@ -102,6 +113,8 @@ print(a, b, c)
 # Specialised Data Types
 
 # None (absense of value)
+# When you wanna initialize a variable but not assign it a value
+weapons = None
 
 # Actions 
 # (operations: +, - , *, /, **, // (round down when dividing),
