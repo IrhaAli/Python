@@ -70,7 +70,17 @@ for i, char in enumerate('Hello'):
 for i, char in enumerate(list(range(100))):
     print(i, char) # index i of character as index i
 
+# While loop (break (break the loop), continue (ignore everything else in the loop for that iteration), pass (good placeholder when you haven't implemented the loop))
+condition = True
 
+while condition:
+    print(i)
+    condition = False
+else:
+    # The else block only executed if only there's no break in the loop
+    print('No breaks in the loop')
+
+# Arguments vs. Parameters
 
 ############################## Fundamental Data Types ##############################
 # int (whole numbers)
@@ -219,3 +229,41 @@ print(some_value)
 print('Lenght of a string', len('1234567'))
 
 ############################### Best Practices ##############################
+# GUI (Graphical User Interface)
+picture = [
+    [0,0,0,1,0,0,0],
+    [0,0,1,1,1,0,0],
+    [0,1,1,1,1,1,0],
+    [1,1,1,1,1,1,1],
+    [0,0,0,1,0,0,0],
+    [0,0,0,1,0,0,0]
+]
+
+fill = '*'
+empty = ' '
+# Iterate over the images
+for image in picture:
+    #  Iterate over the image
+    for pixel in image:
+        # If a 0 then print empty space, If 1 then print *
+        print(fill if (pixel == 1) else empty, end='')
+    print('')
+
+# Check for duplicates
+some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+
+duplicates = []
+values = {}
+for value in some_list:
+    if values[value]:
+        duplicates.append(value)
+    else:
+      values[value] = value
+
+print(duplicates)
+
+# Functions
+def say_hello(name):
+    print('Hello', name)
+
+say_hello('Irha Ali')
