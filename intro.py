@@ -3,6 +3,16 @@ name = input('What is your name? ')
 print('Hello, ' + name)
 
 ############################### Terms ##############################
+# Conditional Logic
+is_old = True
+is_licenced = True
+
+if is_old and is_licenced:
+    print('You\'re old enough to drive')
+elif is_old:
+    print('You\'re old but can\'t drive')
+else:
+    print('No driving for you')
 
 ############################## Fundamental Data Types ##############################
 # int (whole numbers)
