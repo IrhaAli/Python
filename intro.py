@@ -67,6 +67,9 @@ for number in range(0, 10, 2): # 0 to 10 skip by 2
 for i, char in enumerate('Hello'):
     print(i, char) # index i of character as index i
 
+for i, char in enumerate(list(range(100))):
+    print(i, char) # index i of character as index i
+
 
 
 ############################## Fundamental Data Types ##############################
