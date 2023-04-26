@@ -296,3 +296,17 @@ def super_func(*args, **kwargs): # accept any number of arguments
     print(kwargs) # dictionary of arguments
     print(args)
     return(args)
+
+# Rule: *args, default parameters, **kwargs
+
+# Highest Even
+def highest_even(list):
+    even = 0
+    for item in list:
+        if (item % 2 == 0 and item > even):
+            even = item
+    return even
+
+highest_even([1,2,3,5,10,2,5])
+
+# Walrus Operators
