@@ -14,6 +14,13 @@ elif is_old:
 else:
     print('No driving for you')
 
+# Truthy and Falsy
+# The falsy values are empty string, 0, null, undefined, None etc
+
+# Ternary Operators
+# condition_if_true if condition else condition_if_false
+
+
 ############################## Fundamental Data Types ##############################
 # int (whole numbers)
 print(type(2+4))
