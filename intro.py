@@ -80,7 +80,7 @@ else:
     # The else block only executed if only there's no break in the loop
     print('No breaks in the loop')
 
-# Arguments vs. Parameters
+# Arguments (The actual values you provide a function) vs. Parameters (what a function recieves)
 
 ############################## Fundamental Data Types ##############################
 # int (whole numbers)
@@ -263,7 +263,36 @@ for value in some_list:
 print(duplicates)
 
 # Functions
-def say_hello(name):
-    print('Hello', name)
+def say_hello(name = 'John Doe', emoji = ":)"): # Default Parameters
+    print('Hello', name, emoji)
 
+# Positional Arguments
 say_hello('Irha Ali')
+say_hello()
+
+# Keyword Arguments
+say_hello(emoji = ":)", name = 'Irha Ali')
+
+# Return Values
+def sum(num1, num2):
+    return num1 + num2
+
+print(sum(4,5))
+
+# Methods vs Functions
+# Methods are owned by a data type where as functions can be called anytime
+
+# Docstrings
+def multiply(num1, num2):
+    '''
+    Info: Multiplies two numbers
+    '''
+    return num1 * num2
+
+print(multiply.__doc__)
+
+# *args and kwargs
+def super_func(*args, **kwargs): # accept any number of arguments
+    print(kwargs) # dictionary of arguments
+    print(args)
+    return(args)
